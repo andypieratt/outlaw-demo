@@ -5,10 +5,18 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 const Header = () => {
   return (
-    <div className="header-container">
-      <MenuIcon />
-      <h3>Outlaw</h3>
-    </div>
+    <>
+      <div className="header-container">
+        <div className="nav-container">
+          <button className="nav-button">
+            <MenuIcon />
+          </button>
+        </div>
+        <div className="title-container">
+          <h2 className="title">OUTLAW</h2>
+        </div>
+      </div>
+    </>
   );
 };
 

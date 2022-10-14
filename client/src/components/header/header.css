@@ -1,0 +1,23 @@
+.header-container {
+  border: 2px solid red;
+  display: flex;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.nav-container{
+  align-content: flex-end;
+}
+
+.nav-button {
+  justify-content: end;
+}
+
+.title-container {
+  border: 2px solid blue;
+  display: block;
+}
+
+.title {
+  align-items: center;
+}
